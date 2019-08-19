@@ -31,18 +31,18 @@ type Device struct {
 	TimeStamp string             `json:"timestamp" bson:"timestamp"`
 }
 
-type TestDevice struct {
-	ID        primitive.ObjectID `json:"_id,omitempty" bson:"_id,omitempty"`
-	DeviceID  string             `json:"device_id,omitempty" bson:"device_id,omitempty"`
-	E1        float32            `json:"e1,omitempty" bson:"e1,omitempty"`
-	E2        float32            `json:"e2,omitempty" bson:"e2,omitempty"`
-	E3        float32            `json:"e3,omitempty" bson:"e3,omitempty"`
-	E4        float32            `json:"e4,omitempty" bson:"e4,omitempty"`
-	E5        float32            `json:"e5,omitempty" bson:"e5,omitempty"`
-	Date      string             `json:"date" bson:"date"`
-	Time      string             `json:"time" bson:"time"`
-	TimeStamp string             `json:"timestamp" bson:"timestamp"`
-}
+// type TestDevice struct {
+// 	ID        primitive.ObjectID `json:"_id,omitempty" bson:"_id,omitempty"`
+// 	DeviceID  string             `json:"device_id,omitempty" bson:"device_id,omitempty"`
+// 	E1        float32            `json:"e1,omitempty" bson:"e1,omitempty"`
+// 	E2        float32            `json:"e2,omitempty" bson:"e2,omitempty"`
+// 	E3        float32            `json:"e3,omitempty" bson:"e3,omitempty"`
+// 	E4        float32            `json:"e4,omitempty" bson:"e4,omitempty"`
+// 	E5        float32            `json:"e5,omitempty" bson:"e5,omitempty"`
+// 	Date      string             `json:"date" bson:"date"`
+// 	Time      string             `json:"time" bson:"time"`
+// 	TimeStamp string             `json:"timestamp" bson:"timestamp"`
+// }
 
 var client *mongo.Client
 
